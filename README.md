@@ -3,8 +3,7 @@ Tasks App
 
 Easy Task Management Android App with online data syncing.
 
-# The app is using Firebase, you have to configure it
-# from your side to test the app
+# The app is using Firebase, you have to configure it from your side to test the app
 
 # Features
 
