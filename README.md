@@ -3,15 +3,20 @@ Tasks App
 
 Easy Task Management Android App with online data syncing.
 
-# The app is using Firebase, you have to configure it from your side to test the app
+#          The app is using Firebase, you have to configure it from your side to test the app
 
 # Features
 
 Add - Update - Delete Task
+
 3 Status for Tasks - 1. Pending 2. Started 3. Completed
+
 Update Profile Info and Profile Picture
+
 Offline Data Caching for Tasks.
+
 Online Data Syncing for all data.
+
 
 # screenshot
 
