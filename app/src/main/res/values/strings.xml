@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">projmanagApp</string>
+    <string name="splash_text_name">PROJMANAG</string>
+    <string name="projemanag_text_intro">Projemanag</string>
+    <string name="lets_get_started_intro">Lets Get Started</string>
+    <string name="sign_in_text">SIGN IN</string>
+    <string name="intro_collaborate_text">Collaborate and Plan Together Across Multiple Devices on projemanag Minimalist interface</string>
+    <string name="sign_up_btn_text">SIGN UP</string>
+    <string name="signup_text">Enter your name, email id and password, to regester with us</string>
+    <string name="signup_sign_up_btn">SIGN UP</string>
+    <string name="signup_sign_in_btn">SIGN IN</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_name">Name</string>
+    <string name="dialog_progress">please wait</string>
+    <string name="header_text">projmanag</string>
+    <string name="menu_my_profile">my profile</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="profile_update">update</string>
+    <string name="profile_mobile">mobile</string>
+    <string name="profile_email">email</string>
+    <string name="profile_name">name</string>
+    <string name="profile_toolbar_title">My profile</string>
+    <string name="board_name">Board Name</string>
+    <string name="create_board_btn">Create</string>
+    <string name="fab_button">fab_button</string>
+    <string name="no_board_items_found">no board items found</string>
+
+
+    <!--item_task-->
+    <!--TODO (Step 4: All the string values are added here.)-->
+    <!--START-->
+    <string name="action_add_list">Add List</string>
+    <string name="hint_list_name">List Name</string>
+    <string name="action_add_card">Add Card</string>
+    <string name="hint_card_name">Card Name</string>
+    <string name="add_list">Add List</string>
+    <string name="image_contentDescription">image</string>
+    <string name="add_members_menu">add members</string>
+
+
+    <string name="default_notification_channel_id">projmanag_notification_chanel_id</string>
+</resources>

@@ -1,0 +1,33 @@
+package com.example.projmanagapp.models
+
+import android.os.Parcel
+import android.os.Parcelable
+
+data class SelectMember (
+        val id:String,
+        val image:String
+):Parcelable {
+    constructor(parcel: Parcel) : this(
+            parcel.readString()!!,
+            parcel.readString()!!) {
+    }
+
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeString(id)
+        parcel.writeString(image)
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<SelectMember> {
+        override fun createFromParcel(parcel: Parcel): SelectMember {
+            return SelectMember(parcel)
+        }
+
+        override fun newArray(size: Int): Array<SelectMember?> {
+            return arrayOfNulls(size)
+        }
+    }
+}

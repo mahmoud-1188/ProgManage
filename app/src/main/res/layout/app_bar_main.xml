@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+  //-the app bar xml file -->
+
+
+    --create App bar layout and add toolbar to it->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ProjmanagApp.AppBaroverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/appbar_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary_color"
+            app:popupTheme="@style/ProjmanagApp.popupoverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    //--include the main content layout to app bar xml file ->
+    <include layout="@layout/main_content"/>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fab_main"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|end"
+      android:layout_margin="16dp"
+      android:contentDescription="@string/fab_button"
+      android:src="@drawable/ic_add_24"
+      app:fabSize="normal"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

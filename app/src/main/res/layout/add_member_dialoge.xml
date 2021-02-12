@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/member_dialoge">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search member"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/add_member_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/add_member_dialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="ADD"
+            android:textColor="@color/primary_color"
+            android:background="@android:color/transparent"
+            android:textSize="18sp"/>
+     <Button
+        android:id="@+id/cancel_member_dialog"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:text="Cancel"
+        android:textColor="@color/secondary_text_color"
+        android:background="@android:color/transparent"
+        android:textSize="18sp"/>
+
+    </LinearLayout>
+</LinearLayout>

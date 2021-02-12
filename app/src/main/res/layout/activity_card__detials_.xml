@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activites.Card_Detials_Activity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ProjmanagApp.AppBaroverlay">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/card_details_toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/primary_color"
+        app:popupTheme="@style/ProjmanagApp.popupoverlay"
+        android:layout_height="?attr/actionBarSize"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="10dp">
+
+<LinearLayout
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="Card name"
+    android:textSize="18sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Card name">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/carded_name"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        >
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Label color"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/Label_color"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:text="Select Color"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Members"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/select_member"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:text="Select Member"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_select_member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Due Date"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/Due_Date"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:text="Select Due Date"/>
+
+
+
+        <Button
+            android:backgroundTint="@null"
+            android:id="@+id/carddetails_update_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_button_margin_top"
+            android:background="@drawable/btn"
+            android:text="@string/profile_update"
+            android:textColor="@color/white"
+            android:textSize="@dimen/profile_button_text_size"/>
+
+    </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

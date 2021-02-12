@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height_size"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/nav_header_main_background"
+    android:theme="@style/ThemeOverlay.MaterialComponents.Dark"
+    tools:ignore="ExtraText">
+    
+/-- header xml file --->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/header_image"
+        android:layout_width="@dimen/header_circle_image_width"
+        android:layout_height="@dimen/header_circle_image_height"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="@dimen/header_circle_image_civ_border_size"
+        android:layout_marginEnd="@dimen/header_circle_image_margin_startend"
+        android:layout_marginStart="@dimen/header_circle_image_margin_startend"
+        android:src="@drawable/ic_nav_user"/>
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"
+        android:textSize="@dimen/header_text_size"
+        android:layout_marginTop="@dimen/header_text_margin_top"
+        android:layout_marginBottom="@dimen/header_text_margin_bottom"
+        android:layout_marginStart="@dimen/header_circle_image_margin_startend"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_view_width"
+            android:background="@color/primary_color"/>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash_text_size">60sp</dimen>
+    <dimen name="intro_text_projemanag">45sp</dimen>
+    <dimen name="intro_text_lets_getstarted_size">25sp</dimen>
+    <dimen name="intro_projemanag_margin_top">40dp</dimen>
+    <dimen name="intro_image_width">280dp</dimen>
+    <dimen name="intro_image_height">200dp</dimen>
+    <dimen name="intro_image_margin_top">30dp</dimen>
+    <dimen name="intro_collaborat_text_size">15sp</dimen>
+    <dimen name="intro_collaborat_margin_top">15dp</dimen>
+
+    <dimen name="intro_signin_button_height">50dp</dimen>
+    <dimen name="intro_signin_button_margin_top">20dp</dimen>
+    <dimen name="intro_signin_button_margin_end_start">15dp</dimen>
+    <dimen name="intro_signin_button_text_size">18sp</dimen>
+
+    <dimen name="intro_signup_button_height">50dp</dimen>
+    <dimen name="intro_signup_button_margin_top">10dp</dimen>
+    <dimen name="intro_signup_button_margin_end_start">15dp</dimen>
+    <dimen name="intro_signup_button_text_size">18sp</dimen>
+
+    <dimen name="signin_text_size">15sp</dimen>
+    <dimen name="signin_text_margin_top">30dp</dimen>
+    
+    <dimen name="signup_cardview_height">340dp</dimen>
+    <dimen name="signup_cardview_margin_top">50dp</dimen>
+    <dimen name="signup_cardview_margin_end_start">20dp</dimen>
+    <dimen name="signup_cardview_radius">15dp</dimen>
+
+    <dimen name="signup_text_name_margin_top">20dp</dimen>
+    <dimen name="signup_text_name_margin_end_start">20dp</dimen>
+
+    <dimen name="signup_text_email_margin_top">20dp</dimen>
+    <dimen name="signup_text_email_margin_end_start">20dp</dimen>
+
+    <dimen name="signup_text_password_margin_top">20dp</dimen>
+    <dimen name="signup_text_password_margin_end_start">20dp</dimen>
+
+    <dimen name="signup_button_margin_top">30dp</dimen>
+    <dimen name="signup_button_margin_end_start">20dp</dimen>
+    <dimen name="signup_button_text_size">18sp</dimen>
+
+    <dimen name="signin_button_margin_top">30dp</dimen>
+    <dimen name="signin_cardview_height">250dp</dimen>
+
+    --circle header image dimen-->
+
+    <dimen name="nav_header_height_size">200dp</dimen>
+    <dimen name="header_circle_image_width">80dp</dimen>
+    <dimen name="header_circle_image_height">80dp</dimen>
+    <dimen name="header_circle_image_civ_border_size">1dp</dimen>
+    <dimen name="header_circle_image_margin_startend">16dp</dimen>
+    <dimen name="header_circle_image_margin_bottom">10dp</dimen>
+    <dimen name="header_text_size">18sp</dimen>
+    <dimen name="header_text_margin_top">5dp</dimen>
+    <dimen name="header_text_margin_bottom">10dp</dimen>
+    <dimen name="header_view_width">0.5dp</dimen>
+
+    --profil xml file-->
+
+    <dimen name="profile_cardview_margin_top">50dp</dimen>
+    <dimen name="profile_cardview_margin_end_start">20dp</dimen>
+    <dimen name="profile_cardview_radius">15dp</dimen>
+
+    <dimen name="profile_text_name_margin_top">30dp</dimen>
+    <dimen name="profile_text_name_margin_end_start">20dp</dimen>
+
+    <dimen name="profile_text_email_margin_top">20dp</dimen>
+    <dimen name="profile_text_email_margin_end_start">20dp</dimen>
+
+    <dimen name="profile_text_password_margin_top">20dp</dimen>
+    <dimen name="profile_text_password_margin_end_start">20dp</dimen>
+
+    <dimen name="profile_button_margin_top">30dp</dimen>
+    <dimen name="profile_button_margin_end_start">20dp</dimen>
+    <dimen name="profile_button_text_size">18sp</dimen>
+
+    <!--TODO (Step 2: All the dimen values are added here.)-->
+    <!--START-->
+    <dimen name="task_item_cv_elevation">5dp</dimen>
+    <dimen name="task_item_add_item_text_padding">12dp</dimen>
+    <dimen name="task_item_add_item_text_size">18sp</dimen>
+    <dimen name="task_item_cv_margin">5dp</dimen>
+    <dimen name="task_item_cv_corner_radius">5dp</dimen>
+    <dimen name="task_item_image_buttons_padding">10dp</dimen>
+    <dimen name="task_item_title_view_elevation">10dp</dimen>
+    <dimen name="task_item_title_text_padding">10dp</dimen>
+    <dimen name="task_item_title_text_size">16sp</dimen>
+    <dimen name="task_item_divider_height">0.5dp</dimen>
+    <dimen name="task_item_rv_card_list_margin">5dp</dimen>
+    <dimen name="task_item_add_card_text_elevation">10dp</dimen>
+    <!--END-->
+
+    <!--TODO (Step 8: All the dimen values are added here.)-->
+    <!--START-->
+    <dimen name="item_member_marginBottom">10dp</dimen>
+    <dimen name="item_member_content_padding">10dp</dimen>
+    <dimen name="item_member_member_image_size">60dp</dimen>
+    <dimen name="item_member_image_circular_width_size">0.5dp</dimen>
+    <dimen name="item_member_detail_layout_marginStart">10dp</dimen>
+    <dimen name="item_member_name_text_size">18sp</dimen>
+    <dimen name="item_member_email_text_size">14sp</dimen>
+    <dimen name="item_member_divider_height">0.3dp</dimen>
+    <dimen name="item_member_divider_marginTop">5dp</dimen>
+    <!--END-->
+
+
+
+
+</resources>
